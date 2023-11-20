@@ -1,0 +1,7 @@
+{
+  "name": "flappy-imagine",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

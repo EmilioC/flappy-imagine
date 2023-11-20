@@ -1,0 +1,44 @@
+.wrapper {
+  height: 100vh;
+  background: linear-gradient(to bottom, #0c89ff, #92edff)
+}
+
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  background: url(/assets/images/ChicasOtaku.png) no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.text {
+  font-family: 'Game';
+  text-align: center;
+  height: 70vh;
+  animation: float 2s ease-in-out infinite;
+  font-size: 2em;
+  color: white;
+
+  .subtext {
+    font-size: 19px;
+    padding-bottom: 10px;
+  }
+}
+
+.score {
+  font-family: 'Game';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+  font-size: 2em;
+  color: white;
+}
+
+.bird-logo {
+  width: 70px;
+}
